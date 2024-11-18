@@ -1,8 +1,8 @@
 import React from "react";
-import { useFavorites } from "../../hooks/use-favourite";
+import { useFavorites } from "../hooks/use-favourite";
 import { ScrollArea, ScrollBar } from "./ui/scroll-area";
 import { useNavigate } from "react-router";
-import { useWeatherQuery } from "../../hooks/use-weather";
+import { useWeatherQuery } from "../hooks/use-weather";
 import { Button } from "./ui/button";
 import { Loader2, X } from "lucide-react";
 import { toast } from "sonner";

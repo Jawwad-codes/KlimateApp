@@ -1,14 +1,14 @@
 import React from "react";
 import { Button } from "../components/ui/button";
 import { AlertTriangle, MapPin, RefreshCcw } from "lucide-react";
-import { useGeolocation } from "../../hooks/use-geolocation";
+import { useGeolocation } from "../hooks/use-geolocation";
 import WeatherSkeleton from "../components/loading-skeletion";
 import { Alert, AlertDescription, AlertTitle } from "../components/ui/alert";
 import {
   useForecastQuery,
   useReverseGeocodeQuery,
   useWeatherQuery,
-} from "../../hooks/use-weather";
+} from "../hooks/use-weather";
 import CurrentWeather from "../components/current-weather";
 import HourlyTemperature from "../components/hourlyTemperature";
 import WeatherDetails from "../components/weatherDetails";

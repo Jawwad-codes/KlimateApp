@@ -1,6 +1,6 @@
 import React from "react";
 import { WeatherData } from "../API/types";
-import { useFavorites } from "../../hooks/use-favourite";
+import { useFavorites } from "../hooks/use-favourite";
 import { Button } from "./ui/button";
 import { Star } from "lucide-react";
 import { toast } from "sonner";

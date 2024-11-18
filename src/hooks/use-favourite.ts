@@ -1,6 +1,6 @@
 // src/hooks/use-favorites.ts
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { useLocalStorage } from "../hooks/use-localStorage";
+import { useLocalStorage } from "./use-localStorage";
 
 export interface FavoriteCity {
   id: string;
@@ -38,7 +38,7 @@ export function useFavorites() {
       const exists = favorites.some((fav) => fav.id === newFavorite.id);
       if (exists) return favorites;
 
-      const newFavorites = [...favorites, newFavorite];
+      const newFavorites = [newFavorite, ...favorites];
       setFavorites(newFavorites);
       return newFavorites;
     },

@@ -14,10 +14,10 @@ import {
   CommandSeparator,
 } from "../components/ui/command";
 import { Button } from "../components/ui/button";
-import { useSearchHistory } from "../../hooks/use-searchHistory";
-import { useLocationSearch } from "../../hooks/use-weather";
+import { useSearchHistory } from "../hooks/use-searchHistory";
+import { useLocationSearch } from "../hooks/use-weather";
 import { CityPage } from "../pages/citypage";
-import { useFavorites } from "../../hooks/use-favourite";
+import { useFavorites } from "../hooks/use-favourite";
 
 export function CitySearch() {
   const [open, setOpen] = useState(false);
