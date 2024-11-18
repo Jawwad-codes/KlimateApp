@@ -16,7 +16,6 @@ import {
 import { Button } from "../components/ui/button";
 import { useSearchHistory } from "../hooks/use-searchHistory";
 import { useLocationSearch } from "../hooks/use-weather";
-import { CityPage } from "../pages/citypage";
 import { useFavorites } from "../hooks/use-favourite";
 
 export function CitySearch() {

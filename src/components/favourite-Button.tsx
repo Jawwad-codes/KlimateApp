@@ -1,4 +1,3 @@
-import React from "react";
 import { WeatherData } from "../API/types";
 import { useFavorites } from "../hooks/use-favourite";
 import { Button } from "./ui/button";

@@ -1,8 +1,7 @@
-import React from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import { useForecastQuery, useWeatherQuery } from "../hooks/use-weather";
 import { AlertTriangle } from "lucide-react";
-import { Alert, AlertTitle, AlertDescription } from "../components/ui/alert";
+import { Alert, AlertDescription } from "../components/ui/alert";
 
 import WeatherSkeleton from "../components/loading-skeletion";
 import CurrentWeather from "../components/current-weather";

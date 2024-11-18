@@ -1,4 +1,3 @@
-import React from "react";
 import type { WeatherData } from "../API/types";
 import { format } from "date-fns";
 import { Gauge, Sunrise, Sunset, Wind } from "lucide-react";
@@ -16,7 +15,7 @@ const WeatherDetails = ({ data }: WeatherDetailsProp) => {
     const directions = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
     const index =
       Math.round(((degree %= 360) < 0 ? degree + 360 : degree) / 45) % 8;
-    return [index];
+    return directions[index];
   };
   const details = [
     {

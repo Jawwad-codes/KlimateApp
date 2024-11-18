@@ -1,4 +1,3 @@
-import React from "react";
 import { useFavorites } from "../hooks/use-favourite";
 import { ScrollArea, ScrollBar } from "./ui/scroll-area";
 import { useNavigate } from "react-router";

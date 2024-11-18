@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../components/ui/button";
 import { AlertTriangle, MapPin, RefreshCcw } from "lucide-react";
 import { useGeolocation } from "../hooks/use-geolocation";
